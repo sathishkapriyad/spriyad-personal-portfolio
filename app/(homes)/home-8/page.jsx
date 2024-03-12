@@ -9,6 +9,7 @@ import Hero from "@/components/homes/home-4/Hero";
 import Projects from "@/components/homes/home-8/Projects";
 import Testimonials from "@/components/homes/home-8/Testimonials";
 import React from "react";
+import HeroMain from "@/components/homes/home-8/HeroMain";
 export const metadata = {
   title: "Home 8 || Frisk - Creative Agency & Portfolio Nextjs Template",
 };
@@ -16,7 +17,7 @@ export default function HomePage8() {
   return (
     <div>
       <Header1 />
-      <Hero />
+      <HeroMain />
       <Features />
       <Projects />
       <Testimonials />

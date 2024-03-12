@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function Hero() {
+export default function HeroMain() {
   return (
     <div className="hero-wrapper hero-4 shape-mockup-wrap" id="hero">
-      <div
+      {/* <div
         className="hero-4-thumb img-custom-anim-left wow animated shape-mockup"
         style={{ left: "0px" }}
       >
@@ -16,14 +16,14 @@ export default function Hero() {
           src="/assets/img/hero/hero-main.png"
           alt="img"
         />
-      </div>
+      </div> */}
       <div className="bg-theme">
         <div className="container">
           <div className="hero-style4">
             <div className="row justify-content-end">
-              <div className="col-lg-7">
+              <div className="col-lg-12">
                 <h1 className="hero-title wow img-custom-anim-right animated">
-                  Unleash Exponential Growth.
+                  Unleash Exponential Growth.1
                 </h1>
                 <p className="hero-text wow img-custom-anim-right animated">
                   Unleash a custom-built website that propels your brand, captivates visitors, and drives conversions.
